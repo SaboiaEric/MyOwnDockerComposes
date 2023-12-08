@@ -21,3 +21,7 @@ como acessar a porta do container pelo meu computador?
 Exemplo de execução do banco de dados localmente: 
 
 `docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Pass@word' -p 5433:1433 -d mcr.microsoft.com/mssql/server:2019-latest`
+
+ou rodar `docker-compose` de banco de dados acima.
+
+obs.: lembrar que o host para conexao no computador é `127.0.0.1,5433`
